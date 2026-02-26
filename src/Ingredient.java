@@ -15,4 +15,8 @@ public class Ingredient {
         this.name = name;
     }
 
+    public float getGrams() {
+        return grams;
+    }
+
 }

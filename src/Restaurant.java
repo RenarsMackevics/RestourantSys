@@ -1,9 +1,9 @@
 public class Restaurant {
 
-    private Menu menu;
+    private final  Menu menu;
 
-    public Restaurant(Menu menu) {
-        this.menu = menu;
+    public Restaurant() {
+        this.menu = new Menu();
     }
 
     public Menu getMenu() {
